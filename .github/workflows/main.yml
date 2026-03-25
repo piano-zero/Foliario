@@ -24,7 +24,8 @@ jobs:
         pip install pyinstaller openpyxl
 
     - name: Crea il file EXE
-      run: pyinstaller --noconfirm --windowed --name "FoliarioPro" Foliario_Zero_1-0.py
+      # Qui abbiamo aggiunto --onefile per generare un solo file pulito!
+      run: pyinstaller --noconfirm --onefile --windowed --name "FoliarioPro" Foliario_Zero_1-0.py
 
     - name: Salva e rendi scaricabile l'EXE
       uses: actions/upload-artifact@v4
