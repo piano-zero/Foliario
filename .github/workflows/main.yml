@@ -1,0 +1,33 @@
+name: Crea EXE per Windows
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Scarica il codice
+      uses: actions/checkout@v4
+
+    - name: Prepara Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Installa le librerie
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyinstaller openpyxl
+
+    - name: Crea il file EXE
+      run: pyinstaller --noconfirm --windowed --name "FoliarioPro" Foliario_Zero_1-0.py
+
+    - name: Salva e rendi scaricabile l'EXE
+      uses: actions/upload-artifact@v4
+      with:
+        name: FoliarioPro-Windows
+        path: dist/FoliarioPro.exe
