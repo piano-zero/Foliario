@@ -1,5 +1,7 @@
 📄 Istruzioni per l'uso: Generatore di Foliario
+
 Cos'è questo strumento?
+
 Il Generatore di Foliari Pro è un'applicazione progettata per creare in pochi secondi l'indice dettagliato (Foliario) di un'intera alberatura di cartelle e file.
 Il programma scansiona il contenuto, ignora in automatico i file di sistema (es. file nascosti) e genera un report strutturato a livelli, pronto per essere allegato alla documentazione ufficiale.
 🚀 1. Primo Avvio
