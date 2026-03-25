@@ -50,4 +50,3 @@ Il Foliario generato distribuirà le cartelle e i file in colonne progressive (L
 
 •	Data e Ora di Ultima Modifica
 •	Estensione (es. .pdf, .docx)
-<img width="482" height="759" alt="image" src="https://github.com/user-attachments/assets/951f8289-8f80-4556-b911-2ea086f40cef" />
