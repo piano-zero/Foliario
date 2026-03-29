@@ -49,4 +49,5 @@ Il Foliario generato distribuirà le cartelle e i file in colonne progressive (L
 •	Peso (Dimensione in KB o MB)
 
 •	Data e Ora di Ultima Modifica
+
 •	Estensione (es. .pdf, .docx)
